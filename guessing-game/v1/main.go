@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	maxNum := 100
+	maxNum := 1001
 	secretNumber := rand.Intn(maxNum)
 	fmt.Println("The secret number is ", secretNumber)
 }
